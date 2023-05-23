@@ -1,62 +1,50 @@
-# Título do projeto
-
-Um simples resumo do uso/propósito do projeto.
+# Análise de sentimento e predição
 
 ## Descrição do projeto
+Com o aumento do acesso à informação surgiram novos caminhos para selecionar os melhores hoteis.
+Com esse conjunto de dados, composto por 20.000 avaliações rastreadas do Tripadvisor, você pode explorar o que torna um ótimo hotel e talvez até usar esse modelo em suas viagens!
 
-Um parágrafo aprofundando mais sobre o seu projeto e uma explicação geral do uso.
+O conjunto de dados visa explorar os aspectos do hotel e procurar prever a classificação de cada avaliação.
+
+O objetivo é explorar os aspectos do hotel e prever a classificação das avaliações usando Processamento de Linguagem Natural para realizar análise de sentimentos.
+
+A análise de sentimentos pode ser aplicada de diversas maneiras, desde monitoramento de marca e análise de produtos, até atendimento ao cliente e pesquisa de mercado. A sua aplicação torna o trabalho mais rápido e preciso em direção aos objetivos do negócio. Ela permite entender melhor os clientes e a partir desse entendimento é possível treinar de forma mais eficaz as equipes.
 
 ## Utilização
 
 ### Dependencias
 
-* Descreve quaisquer prerequisitos, bibliotecas, versão do SO, etc., que é necessário para rodar o projeto.
-* exemplo. Windows 10...
+* Sistema Operacional:
+    * Windows 10 ou 11
 
-### Instalação
-
-* Como/aonde fazer o download do seu projeto/programa
-* Quaisquer modificação necessária nos arquivos/diretórios
+* Bibliotecas:
+    * Numpy
+    * Pandas
+    * Matplotlib
+    * Seaborn
+    * Plotly
+    * SpaCy
+    * Natural Language Toolkite 
+    * Scikit-Learn  
 
 ### Executando o projeto
 
-* Como rodar o projeto/programa
-* Passo a passo em tópicos (bullet points)
-```
-bloco de código para os comandos necessários
-```
-
-## Ajuda
-
-Qualquer ponto importante de problemas ou erros comuns
-```
-comando para rodar se o programa tiver uma informação de ajuda
-```
+1 - Baixe o projeto  
+2 - Descompacte o arquivo  
+3 - Execute o arquivo .ipynb  
 
 ## Autores
 
 Nomes dos desenvolvedores do projeto e informação para entrar em contato.
 
-ex. XXXX  
-ex. [@XXXX](https://www.linkedin.com/in/XXX/)
+Philippe Apolinário    
+[@PhilippeApolinario](https://www.linkedin.com/in/philipperapolinario/)
 
 ## Histórico de versões.
 
-* 0.2
-	* Ajustes de diversos bugs e otimização
 * 0.1
     * Primeira versão
 
 ## Licença de uso
 
-Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md para mais detalhes.
-
-## Fontes de inspiração
-
-Inspiração, trechos de códigos utilizados, etc.
-* [readme-template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+Esse projeto possui licença de uso [MIT] - acesse o arquivo LICENSE.md para mais detalhes.
