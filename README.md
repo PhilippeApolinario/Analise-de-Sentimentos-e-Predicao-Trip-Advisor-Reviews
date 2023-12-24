@@ -1,18 +1,41 @@
-# Análise de sentimento e predição
+# Análise de Sentimento e Predição Por Meio das Reviews do TripAdvisor
 
-## Descrição do projeto
-Com o aumento do acesso à informação surgiram novos caminhos para selecionar os melhores hoteis.
-Com esse conjunto de dados, composto por 20.000 avaliações rastreadas do Tripadvisor, você pode explorar o que torna um ótimo hotel e talvez até usar esse modelo em suas viagens!
+### 1.	Entendimento do Problema:
 
-O conjunto de dados visa explorar os aspectos do hotel e procurar prever a classificação de cada avaliação.
+Com o aumento do acesso à informação, surgiram novas formas de selecionar os melhores hotéis. 
+Este conjunto de dados é composto por avaliações coletadas do TripAdvisor, permitindo a exploração dos elementos que tornam um hotel excelente. 
+O objetivo desse conjunto de dados é realizar análise de sentimentos utilizando o Processamento de Linguagem Natural e prever a classificação das avaliações através do desenvolvimento de modelos de machine learning. Isso implica entender os elementos que contribuem para a excelência de um hotel e, consequentemente, fornecer informações valiosas para os consumidores na escolha de hospedagem.
 
-O objetivo é explorar os aspectos do hotel e prever a classificação das avaliações usando Processamento de Linguagem Natural para realizar análise de sentimentos.
+### 2.	Premissas do Negócio:
 
-A análise de sentimentos pode ser aplicada de diversas maneiras, desde monitoramento de marca e análise de produtos, até atendimento ao cliente e pesquisa de mercado. A sua aplicação torna o trabalho mais rápido e preciso em direção aos objetivos do negócio. Ela permite entender melhor os clientes e a partir desse entendimento é possível treinar de forma mais eficaz as equipes.
+As avaliações do TripAdvisor refletem de maneira precisa e abrangente a qualidade e a experiência de estadia em um hotel.
+As avaliações do TripAdvisor são representativas da opinião da maioria dos usuários, refletindo assim a qualidade geral do serviço prestado pelo hotel.
+Existe uma correlação entre elementos específicos mencionados nas avaliações e a classificação geral dada pelos usuários.
+
+### 3.	Estratégia Utilizada:
+
+A estratégia de solução envolve a aplicação de técnicas de Processamento de Linguagem Natural para realizar análise de sentimentos nas avaliações coletadas do TripAdvisor.
+Desenvolvimento de modelos de machine learning para prever a classificação das avaliações, utilizando dados extraídos das análises de sentimentos como recursos.
+O trabalho desenvolvido pode ser utilizado para avaliação rápida e eficiente de hotéis, facilitando a escolha dos consumidores.
+
+### 4.	Principais Insights Obtidos:
+
+Identificação dos principais temas mencionados nas avaliações, como serviço ao cliente, comodidades e localização.
+Análise de sentimentos associados a esses temas para entender a percepção dos usuários em relação a diferentes aspectos dos hotéis.
+Avaliação da correlação entre as avaliações específicas de cada elemento e a classificação geral do hotel.
+
+### 5.	Produto Final:
+
+O produto final é um modelo de machine learning capaz de analisar sentimentos em avaliações de hotéis e prever a classificação geral. 
+
+### 6.	Conclusão:
+
+A solução proposta aproveita a análise de sentimentos e técnicas de machine learning para transformar avaliações em informações úteis para tomada de decisão. Isso não apenas agiliza a seleção de hotéis, mas também oferece insights valiosos para aprimorar a qualidade do serviço prestado pelos hotéis com base no feedback dos clientes. Essa abordagem não apenas beneficia os consumidores, mas também pode ser uma ferramenta valiosa para aprimorar a gestão e o desempenho dos hotéis.
+
 
 ## Utilização
 
-### Dependencias
+### Dependências
 
 * Sistema Operacional:
     * Windows 10 ou 11
@@ -23,15 +46,8 @@ A análise de sentimentos pode ser aplicada de diversas maneiras, desde monitora
     * Matplotlib
     * Seaborn
     * Plotly
-    * SpaCy
     * Natural Language Toolkite 
     * Scikit-Learn  
-
-### Executando o projeto
-
-1 - Baixe o projeto  
-2 - Descompacte o arquivo  
-3 - Execute o arquivo .ipynb  
 
 ## Autores
 
